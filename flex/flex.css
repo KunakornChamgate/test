@@ -1,0 +1,45 @@
+body {
+    background: black;
+    font-size: 50px;
+}
+
+.flex {
+    background: yellow;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.flex1 {
+    background: greenyellow;
+    border : 2px solid salmon;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.flex2 {
+    background: greenyellow;
+    border : 2px solid salmon;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.flex3 {
+    background: greenyellow;
+    border : 2px solid salmon;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.bordergreen {
+    margin: 10px;
+    border: 2px solid salmon;
+    }
